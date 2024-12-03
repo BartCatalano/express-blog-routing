@@ -10,7 +10,7 @@ const bacheca = require("../data");
 
 // creo Crug index
 router.get(`/`, (req, res)=>{
-res.json("qui leggo tutti i dati");
+res.json(bacheca);
 });
 
 // creo crug show
